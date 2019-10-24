@@ -15,8 +15,8 @@
   - Comfirmação da compra
   
 6- Pacotes de voo
-  - O tipo de voo(particular,1°classe, economico);
-  - Escolher previamente o hotel;
+  - O tipo de voo(particular,1°classe, economico)
+  - Escolher previamente o hotel
 
 7- Gerenciar voos
   - mudar voo
