@@ -12,7 +12,7 @@
 4- Deletar conta
 
 5- check in
-  - Comfirmação da compra
+  - Confirmação da compra
   
 6- Pacotes de voo
   - O tipo de voo(particular,1°classe, economico)
