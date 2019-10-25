@@ -27,8 +27,8 @@
   - salário
 
 9- Gerenciar empregados
- - adimição
- - demição
+ - admissão
+ - demissão
  - promoção
 
 10- Passagens
