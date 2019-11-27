@@ -42,7 +42,7 @@ public class Main
 	            nome = input.next();
     	    while(e1){    
     	        if(nome.equals(" ") || nome.equals("\n")){
-    	            System.out.println("tente usar letras");
+    	            System.out.println("Tente usar letras");
     	            nome = input.next();
     	        }else
     	            break;
@@ -65,7 +65,7 @@ public class Main
 	        contas.add (c1);
 	        contador++;
 	        
-	        System.out.println("Seu numero de conta é "+ contador);
+	        System.out.println("Seu número de conta é "+ contador);
 	        for (Conta c:contas)
 	        {
 		        System.out.println (c.getNome ());
@@ -87,7 +87,7 @@ public class Main
 		        cpf = Integer.parseInt(input.next());
 		        break;
 		    }catch(NumberFormatException e){
-		        System.out.println("Caracter invalido digite apenas numenos por favor!");
+		        System.out.println("Carácter invalido digite apenas números por favor!");
 		    }
 		}
 		System.out.println("Digite seu Numero de conta");
@@ -97,7 +97,7 @@ public class Main
 		        nconta = Integer.parseInt(input.next());
 		        break;
 		    }catch(NumberFormatException e){
-		        System.out.println("Caracter invalido digite apenas numenos por favor!");
+		        System.out.println("Carácter invalido digite apenas números por favor!");
 		    }
 		}
 		 if(cpf == 777){
@@ -113,7 +113,7 @@ public class Main
 	    }
 	    
 		if (ex != true)
-		  System.out.println ("Usuario não encontrado!");
+		  System.out.println ("Usuário não encontrado!");
 		else
 		  {
 		    System.out.println ("Digite sua senha:");
@@ -125,7 +125,7 @@ public class Main
 			    i = 3;
 			  }
 		  if(on != true)
-		    System.out.println("senha incorreta!");
+		    System.out.println("Senha incorreta!");
 		  }
 		i++;
 	      }
@@ -146,7 +146,7 @@ public class Main
             
         default:
             
-            System.out.println("Digite seu N conta");
+            System.out.println("Digite seu número conta");
             
             int nrecupera = 0;
             
@@ -155,14 +155,14 @@ public class Main
 		         nrecupera = Integer.parseInt(input.next());
 		            break;
 		        }catch(NumberFormatException e){
-		            System.out.println("Caracter invalido digite apenas numenos por favor!");
+		            System.out.println("Carácter invalido digite apenas números por favor!");
 		        }
 		    }
             
           if(nrecupera <= contador && nrecupera > 0)
             c1 = contas.get(nrecupera - 1);
           else{
-              System.out.println("N de conta não existe");
+              System.out.println("Número de conta não existe");
               break;
           }
             
@@ -184,20 +184,20 @@ public class Main
                 System.out.println("Senhor(a) "+ c1.getNome());
                 System.out.println("Sua senha é :"+ c1.getSenha());
 	        }else{
-	            System.out.println("Cpf não condiz com o Numero da conta");
+	            System.out.println("Cpf não condiz com o número da conta");
 	        }
 	        
 	}   
 	if (on == true)
 	  {
-	    System.out.println ("Voce logou\nPor segurança digite seu Numero de conta");
+	    System.out.println ("Voce logou\nPor segurança digite seu número de conta");
 	    
 	    while(e1){
 		    try{
 		        nconta = Integer.parseInt(input.next());
 		        break;
 		    }catch(NumberFormatException e){
-		        System.out.println("Caracter invalido digite apenas numenos por favor!");
+		        System.out.println("Carácter invalido digite apenas números por favor!");
 		    }
 		}
 		c1 = contas.get(nconta - 1);
@@ -205,7 +205,7 @@ public class Main
 	    c1.status();
 	   
 	    while(on){
-	        System.out.println("1- Passagem\n2- Pacotes\n3- Hospedagem\n4- estatos atuais\n>=5 - Deslogar");
+	        System.out.println("1- Passagem\n2- Pacotes\n3- Hospedagem\n4- Estatos atuais\n>=5 - Deslogar");
 	    int selecao = 0;
 	    
 	    while(e1){   
@@ -227,7 +227,7 @@ public class Main
 	                    pais = Integer.parseInt(input.next());
 	                    break;
 	                }catch(NumberFormatException e){
-	                    System.out.println("Digite apenas os numeros apresentados no menu");
+	                    System.out.println("Digite apenas os números apresentados no menu");
 	                }
 	            }
 	            String local = "none";
@@ -247,7 +247,7 @@ public class Main
 	                destino = "Brasil";
 	            } 
 	            
-	            System.out.println("Qual país você esta agora");
+	            System.out.println("Qual país você está agora");
 	            System.out.println("1-Dubai\n2- Japão\n3- Inglaterra\n4- EUA\n5- Brasil");
 	            
 	            int pais2 = 0;
@@ -257,7 +257,7 @@ public class Main
 	                    pais2 = Integer.parseInt(input.next());
 	                    break;
 	                }catch(NumberFormatException e){
-	                    System.out.println("Digite apenas os numeros apresentados no menu");
+	                    System.out.println("Digite apenas os números apresentados no menu");
 	                }
 	            }
 	            
@@ -273,14 +273,14 @@ public class Main
 	                local = "Brasil";
 	            }
 	            
-	            System.out.println("Escolha a quantidade maxima de passageiros que viajará com você\n1- 3\n2- 5\n3- 10");
+	            System.out.println("Escolha a quantidade máxima de passageiros que viajará com você\n1- 3\n2- 5\n3- 10");
 	            npassageiros = 0;
 	            while(e1){
     	            try{
     	                npassageiros = Integer.parseInt(input.next());
     	                break;
     	            }catch(NumberFormatException e){
-    	                System.out.println("Digite apenas numeos inteiros");
+    	                System.out.println("Digite apenas números inteiros");
     	            }
 	            }
 	            
@@ -336,7 +336,7 @@ public class Main
                 System.out.println("De :"+c1.getPassagem().getLocal());
 	            System.out.println("Para :"+c1.getPassagem().getDestino());
 	            System.out.println("Tipo de voo:"+c1.getPassagem().getClasse());
-	            System.out.println("Quantidade maxima de passageiros:"+c1.getPassagem().getNpassageiros());
+	            System.out.println("Quantidade máxima de passageiros:"+c1.getPassagem().getNpassageiros());
 	        }else System.out.println("Nenhuma passagem no momento!");
 	    }else{
 	        on = false;
