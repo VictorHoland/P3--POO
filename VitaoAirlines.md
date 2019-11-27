@@ -7,30 +7,31 @@
 
 2- Logar/Deslogar
 
-3- Gerenciar conta
+3- Recuperar conta
 
 4- Deletar conta
 
 5- check in
   - Confirmação da compra
-  
-6- Pacotes de voo
-  - O tipo de voo(particular,1°classe, economico)
-  - Escolher previamente o hotel
 
-7- Gerenciar voos
+6- Gerenciar voos
   - mudar voo
   - cancelar voo
 
-8- Empregados
+7- Empregados
   - função
   - salário
+  
+8- Gerenciar funcionarios
+  -contratar 
+  -demitir
 
 9- Gerenciar empregados
  - admissão
  - demissão
- - promoção
+ - salário
 
 10- Passagens
-  - promoções 
   - locais onde vai viajar
+  - O tipo de voo
+  
