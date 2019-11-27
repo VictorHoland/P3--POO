@@ -314,7 +314,7 @@ public class Main
 	           
 	           p = new Passagem (local, destino, npassageiros, classe);
 	           
-	           if(destino.equals("Dubai")){
+	           /*if(destino.equals("Dubai")){
 	               if(local.equals("Japão"))
 	                    c1.getPassagem().custo(200);
 	               else if(local.equals("Inglaterra"))
@@ -324,7 +324,7 @@ public class Main
 	               else 
 	                    c1.getPassagem().custo(200);
 	                    
-	           }
+	           }*/
 	           
 	           c1.setPassagem(p);
 	           
