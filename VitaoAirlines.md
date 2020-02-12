@@ -15,21 +15,22 @@
   - Confirmação da compra
 
 6- Gerenciar voos
-  - mudar voo
   - cancelar voo
 
 7- Empregados
   - função
   - salário
+  -Punir/Bonificar
+  -Ver lista de funcionários
   
 8- Gerenciar funcionarios
   -contratar 
   -demitir
+  -Alterar dados do funcionário
 
-9- Gerenciar empregados
- - admissão
- - demissão
- - salário
+9- Verificar os estatos do cliente
+-alterar senha
+
 
 10- Passagens
   - locais onde vai viajar
